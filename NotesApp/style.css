@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    /* background-color: #0077b6; */
+    /* background-color: #00b4d8; */
+    background: rgb(6,72,163);
+    background: linear-gradient(90deg, rgba(6,72,163,1) 5%, rgba(0,212,255,1) 95%);
+    height: 100vh;
+}
+#createNotes{
+    /* background-color: #0077b6;
+    background-color: #90e0ef; */
+    background-color: #168aad;
+}
+#note{
+    width: 70%;
+    height: max-content;
+    background-color: aliceblue;
+    position: relative;
+    overflow: scroll;
+}
+#note i{
+    position: absolute;
+    bottom: 20%;
+    right: 3%;
+    cursor: pointer;
+}
